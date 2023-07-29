@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	background-color: #fff;
+	text-align: center;
+	line-height: 2rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url("https://cdn.freebiesupply.com/logos/large/2x/strange-music-logo-logo-png-transparent.png");
+	background-position-x: center;
+	background-position-y: 65%;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-blend-mode: hard-light;
+	object-fit: cover;
+	opacity: 0.9;
+}
+
+#title {
+	font-size: 3rem;
+	padding: 4rem 2rem 2rem;
+	text-shadow: 1px 1px lightgrey;
+}
+
+.title-box {
+	background-color: crimson;
+	max-width: 550px;
+	margin: 0 auto;
+	line-height: 3.5rem;
+}
+
+p {
+	font-size: 2rem;
+	padding: 1rem 2rem;
+}
+
+figure p {
+	font-size: 0.8rem;
+	line-height: 2rem;
+	font-weight: 800;
+	padding: 0 2rem;
+}
+
+figure p:first-of-type {
+	padding-top: 3rem;
+}
+
+figure figcaption {
+	padding-bottom: 3rem;
+	padding-left: 35%;
+	padding-right: 1rem;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+#image {
+	max-width: 100%;
+	height: auto;
+	max-height: 80vh;
+}
+
+#img-div {
+	background-color: lightgrey;
+	max-width: 550px;
+	padding: 1rem 0;
+	padding-top: 0;
+	margin: 0 auto;
+}
+
+#img-div img {
+	display: block;
+	margin: 0 auto;
+	filter: grayscale(100%);
+}
+
+#img-caption {
+	font-size: 1.5rem;
+	font-style: italic;
+	padding: 1rem;
+}
+
+#headline {
+	padding: 2rem;
+	font-size: 2rem;
+	text-align: center;
+	background-color: crimson;
+	text-shadow: 1px 1px lightgrey;
+}
+
+#tribute-info {
+	background-color: lightgrey;
+	max-width: 550px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+}
+
+#tribute-info span {
+	font-size: 1rem;
+}
+
+#tribute-info ul {
+	list-style-type: none;
+	padding: 2rem;
+}
+
+#tribute-info ul i {
+	font-size: 1.5rem;
+}
+
+blockquote {
+	font-size: 1rem;
+	background-color: crimson;
+	font-style: italic;
+}
+
+.footer {
+	padding: 2rem 1rem;
+}
+
+.background-shadow-top {
+	background-color: lightgrey;
+}
+
+.container {
+	min-height: 100vh;
+	background-color: lightgrey;
+}
+
+@media (max-width: 556px) {
+	#tribute-info ul i {
+		font-size: 1.2rem;
+	}
+
+	#tribute-info {
+		font-size: 1.2rem;
+	}
+
+	#tribute-info span {
+		font-size: 0.8rem;
+	}
+
+	#tribute-info ul {
+		padding: 1.5rem;
+	}
+
+	figure p {
+		font-size: 0.7rem;
+	}
+
+	figure figcaption {
+		font-size: 0.8rem;
+	}
+}
